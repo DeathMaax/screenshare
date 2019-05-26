@@ -17,7 +17,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed ()
 	.setAuthor(`${message.guild.name}`, message.guild.iconURL)
 	.setColor('#000001')
-    .setTitle("**Screen Link**")
+        .setTitle("**Screen Link**")
 	.addField(`https://discordapp.com/channels/${message.guild.id}/${message.member.voiceChannel.id}`,`Room Name : **${message.member.voiceChannel.name}**`)
 	.setDescription(`__This Link For__ **${message.member.voiceChannel.name}** __Room__`)
 	embed.setFooter(`Requested By : ${message.author.tag}`, message.author.avatarURL)
