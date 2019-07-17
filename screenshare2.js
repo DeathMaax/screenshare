@@ -24,7 +24,7 @@ client.on('message', message => {
 	embed.setFooter(`You must be in the same channel for using the link.`, message.author.avatarURL)
     message.channel.send(embed);
 
-    }
+   }
 });
 
 
